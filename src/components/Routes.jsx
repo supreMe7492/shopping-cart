@@ -1,8 +1,9 @@
 import App from "./App";
+import Home from "./Home";
 const routes = [
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
   },
 ];
 
