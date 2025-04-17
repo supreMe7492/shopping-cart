@@ -1,0 +1,46 @@
+.cardContainer {
+  display: flex;
+  max-width: 12em;
+  height: 26em;
+  flex-direction: column;
+  background: #44475a;
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+  border-radius: 10px;
+}
+.img {
+  width: 100%;
+  height: 65%;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+.detContainer {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+.nameContainer {
+  display: block;
+  height: 4em;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.addBtn {
+  background-color: #8be9fd;
+  border: 0px;
+  border-radius: 5px;
+  padding: 3px;
+  height: 2em;
+  font-size: small;
+  font-weight: bold;
+  color: #282a36;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+.addBtn:hover {
+  background-color: #f1fa8c;
+}
