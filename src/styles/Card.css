@@ -29,7 +29,8 @@
   font-weight: bold;
   margin-top: 1em;
 }
-.addBtn {
+.addBtn,
+.buyBtn {
   background-color: #8be9fd;
   border: 0px;
   border-radius: 5px;
@@ -41,6 +42,52 @@
   cursor: pointer;
   margin-top: 1.5em;
 }
-.addBtn:hover {
+.addBtn:hover,
+.buyBtn:hover {
   background-color: #f1fa8c;
+}
+
+.cntprcContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #8be9fd;
+  color: black;
+  border-radius: 5px;
+}
+svg.lucide.lucide-minus {
+  cursor: pointer;
+}
+svg.lucide.lucide-plus {
+  cursor: pointer;
+}
+.removeBtn {
+  background-color: #fd8b8b;
+  border: 0px;
+  border-radius: 5px;
+  padding: 3px;
+  height: 2em;
+  font-size: small;
+  font-weight: bold;
+  color: #282a36;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+.quantity {
+  background: #8be9fd;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.cartBtns {
+  display: flex;
+  justify-content: space-between;
 }

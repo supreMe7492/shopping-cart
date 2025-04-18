@@ -3,7 +3,7 @@ import Home from "./Home";
 const routes = [
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
   },
   {
     path: "/:name",

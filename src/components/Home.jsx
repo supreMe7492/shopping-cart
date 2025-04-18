@@ -1,11 +1,13 @@
 import Nav from "./Nav";
 import "../styles/Home.css";
 import { useNavigate } from "react-router-dom";
-export default function Home() {
+export default function Home({ num }) {
   const navigate = useNavigate();
+
   return (
     <>
-      <Nav />
+      <Nav cartNum={num} />
+
       <div className="content">
         <div className="main">
           <span className="title">Shop anything you want on click</span>

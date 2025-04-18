@@ -1,6 +1,6 @@
 import { ProdCard } from "./card";
 import "../styles/Products.css";
-export default function Products({ data, loading }) {
+export default function Products({ data, loading, cartItems, setCartItems }) {
   console.log(data);
   if (loading) {
     return <p>Loading...</p>;
@@ -14,6 +14,8 @@ export default function Products({ data, loading }) {
             name={dat.title}
             imgurl={dat.image}
             price={dat.price}
+            cartItems={cartItems}
+            setCartItems={setCartItems}
           />
         ))}
       </div>
